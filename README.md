@@ -1,14 +1,15 @@
 ## Low-Light Image Enhancement Using CNN
 ## Project Overview
-This project aims to improve the quality of images taken in low-light conditions by leveraging Convolutional Neural Networks (CNNs). Low-light images often suffer from high noise levels, poor visibility, and lack of detail, which can hinder various computer vision tasks. Our objective is to create a CNN-based model that effectively denoises and enhances these images, improving their usability and overall quality.
+This project focuses on enhancing the quality of images captured in low-light environments by utilizing Convolutional Neural Networks (CNNs). Images taken under low-light conditions typically exhibit significant noise, reduced visibility, and a loss of detail, which can impede numerous computer vision applications. Our goal is to develop a CNN-driven model that can successfully denoise and improve these images, thereby increasing their clarity and usefulness.
 
 ## Model Architecture
-The architecture of our CNN model includes several convolutional layers designed for feature extraction and noise reduction:
-- **Input Layer**: Accepts RGB images of any resolution.
-- **Convolution Layers**: Multiple layers with 32 filters each, using 3x3 kernels and ReLU activation.
-- **Skip Connections**: Added to help retain and utilize information from previous layers.
-- **Output Layer**: A convolutional layer with activation to create the final enhanced image.
-- Detailed architecture is provided in report pdf.
+- My CNN model is designed for feature extraction and noise reduction in images. It accepts RGB images of any resolution through its input layer.
+- The model includes multiple convolutional layers, each with 32 filters and 3x3 kernels. These layers use ReLU activation functions to learn complex patterns and extract important 
+  features from the images.
+- Skip connections are implemented to retain information from earlier layers, helping to preserve essential details that might otherwise be lost during processing. This improves the 
+  model's overall performance.
+- The output layer is a convolutional layer that produces the final enhanced image, applying the necessary enhancements to improve image quality.
+- The detailed architecture, including specifics on each layer and their configurations, is provided in the accompanying report PDF.
 
 ## Evaluation Metric
 The model's performance is evaluated using the Peak Signal-to-Noise Ratio (PSNR). The final average PSNR on the test dataset is 23.802893.
@@ -29,7 +30,6 @@ The model's performance is evaluated using the Peak Signal-to-Noise Ratio (PSNR)
 #### Testing Instructions
 Place the low-light images you want to enhance in the test/low folder. After running the script, the denoised images will be saved in the test/predicted folder.
 
-A sample low-light image is included in the test/low folder, with its corresponding denoised output in the test/predicted folder. To test with your own images, replace the sample image with your own low-light images.
 ### Sample Result
 
 <img width="952" alt="Screenshot 2024-06-16 at 11 29 41 PM" src="https://github.com/Aimank009/VLG_DenoisingImages/assets/128082668/e9cf1932-1705-418c-a4c8-e6da609baa96">

@@ -30,3 +30,7 @@ The model's performance is evaluated using the Peak Signal-to-Noise Ratio (PSNR)
 Place the low-light images you want to enhance in the test/low folder. After running the script, the denoised images will be saved in the test/predicted folder.
 
 A sample low-light image is included in the test/low folder, with its corresponding denoised output in the test/predicted folder. To test with your own images, replace the sample image with your own low-light images.
+### Sample Result
+
+<img width="952" alt="Screenshot 2024-06-16 at 11 29 41 PM" src="https://github.com/Aimank009/VLG_DenoisingImages/assets/128082668/e9cf1932-1705-418c-a4c8-e6da609baa96">
+

@@ -10,7 +10,7 @@ The architecture of our CNN model includes several convolutional layers designed
 - **Output Layer**: A convolutional layer with activation to create the final enhanced image.
 - Detailed architecture is provided in report pdf.
 
-## PEvaluation Metric
+## Evaluation Metric
 The model's performance is evaluated using the Peak Signal-to-Noise Ratio (PSNR). The final average PSNR on the test dataset is 23.802893.
 
 ## How to Run
